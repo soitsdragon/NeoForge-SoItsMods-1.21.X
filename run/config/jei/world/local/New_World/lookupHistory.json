@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"soitsmods:santa_hat_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"soitsmods:top_hat_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

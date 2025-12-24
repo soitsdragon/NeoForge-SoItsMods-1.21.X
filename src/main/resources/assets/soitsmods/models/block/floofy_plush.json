@@ -1,0 +1,9 @@
+{
+  "parent": "soitsmods:custom/plushie",
+  "textures": {
+    "all": "soitsmods:block/floofy_plushie",
+    "particle": "soitsmods:block/floofy_plushie",
+    "2": "soitsmods:block/floofy_skin_mc"
+  },
+  "render_type": "cutout_mipped"
+}

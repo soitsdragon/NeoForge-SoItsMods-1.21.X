@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "2": "plushie_texture"
+      }
+    },
+    "floofy": {
+      "name": "floofy",
+      "map": {
+        "2": "floofy_skin_mc"
+      }
+    }
+  }
+}

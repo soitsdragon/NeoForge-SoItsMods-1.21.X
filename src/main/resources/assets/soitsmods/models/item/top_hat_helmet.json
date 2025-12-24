@@ -1,0 +1,7 @@
+{
+  "parent": "soitsmods:custom/top_hat",
+  "textures": {
+    "2": "soitsmods:block/top_hat",
+    "particle": "soitsmods:item/top_hat"
+  }
+}

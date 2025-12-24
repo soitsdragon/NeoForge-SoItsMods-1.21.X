@@ -1,0 +1,9 @@
+{
+  "parent": "soitsmods:custom/plushie",
+  "textures": {
+    "all": "soitsmods:block/dragon_plushie",
+    "particle": "soitsmods:block/dragon_plushie",
+    "2": "soitsmods:block/plushie_texture"
+  },
+  "render_type": "cutout_mipped"
+}
