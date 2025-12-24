@@ -22,6 +22,8 @@ import net.minecraft.util.FastColor;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+//Dragon Plushie
+
 public class DragonPlushBlock extends Block implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 	private static final VoxelShape SHAPE = Shapes.or(box(3, 9.5, 6, 12, 18.5, 15), box(2.8, 9.3, 5.7, 12.2, 18.7, 15.1), box(5, 2.5, 9.2, 9.9, 9.5, 11.7), box(4.8, 2.3, 9, 10.1, 9.7, 11.9), box(10.5, 2.3, 9, 13.5, 9.7, 11.8),
