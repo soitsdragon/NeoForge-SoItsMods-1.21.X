@@ -200,9 +200,11 @@
     "version": "1.0.1",
     "description": "Please enjoy my first mod!",
     "author": "SoItsDragon",
-    "websiteURL": "https://soitsdragon.carrd.co/#",
+    "websiteURL": "https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X",
     "license": "MIT License",
     "serverSideOnly": false,
+    "updateURL": "https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X",
+    "modPicture": "img_4890",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -211,7 +213,7 @@
       "jei"
     ],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Please enjoy my first mod!",
+    "credits": "SoItsDragon",
     "modElementsPackage": "net.soitsdragon.soitsmods"
   },
   "mcreatorVersion": 202500345720
