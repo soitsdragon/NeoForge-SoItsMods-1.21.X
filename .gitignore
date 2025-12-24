@@ -38,5 +38,10 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+#mcreator
+
 nexuscompiler-mods-1.21.1/
 .mcreator/
+models/
+soitsmods.mcreator/
