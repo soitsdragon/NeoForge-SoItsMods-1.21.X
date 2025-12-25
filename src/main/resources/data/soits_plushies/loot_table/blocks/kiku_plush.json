@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "soits_plushies:blocks/kiku_plush",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soits_plushies:kiku_plush"
+        }
+      ]
+    }
+  ]
+}

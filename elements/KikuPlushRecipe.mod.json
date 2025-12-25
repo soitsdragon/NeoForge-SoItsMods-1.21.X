@@ -20,34 +20,34 @@
         "value": ""
       },
       {
-        "value": "Blocks.WOOL#12"
+        "value": "Blocks.WOOL#0"
       },
       {
-        "value": "Blocks.WOOL#12"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.WOOL#14"
-      },
-      {
-        "value": "Blocks.WOOL#11"
+        "value": "Blocks.WOOL#0"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.WOOL#7"
+        "value": "Blocks.WOOL#1"
       },
       {
-        "value": "Blocks.WOOL#7"
+        "value": "Blocks.WOOL#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#0"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DragonPlush"
+      "value": "CUSTOM:KikuPlush"
     },
-    "name": "dragon_plush_recipe",
+    "name": "kiku_plush_recipe",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "soits_plushies:block/kiku_plush"
+    },
+    "facing=east": {
+      "model": "soits_plushies:block/kiku_plush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "soits_plushies:block/kiku_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "soits_plushies:block/kiku_plush",
+      "y": 270
+    }
+  }
+}

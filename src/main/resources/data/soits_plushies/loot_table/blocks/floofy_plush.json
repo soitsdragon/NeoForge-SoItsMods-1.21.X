@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "soits_plushies:blocks/floofy_plush",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soits_plushies:floofy_plush"
+        }
+      ]
+    }
+  ]
+}

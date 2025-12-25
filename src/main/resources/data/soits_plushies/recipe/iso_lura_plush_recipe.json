@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "plushies",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_wool"
+    },
+    {
+      "item": "minecraft:purple_wool"
+    },
+    {
+      "item": "minecraft:pink_wool"
+    },
+    {
+      "item": "minecraft:pink_wool"
+    },
+    {
+      "item": "minecraft:magenta_wool"
+    },
+    {
+      "item": "minecraft:magenta_wool"
+    }
+  ],
+  "result": {
+    "id": "soits_plushies:iso_lura_plush",
+    "count": 1
+  }
+}

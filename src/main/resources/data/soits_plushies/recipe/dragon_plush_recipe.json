@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "plushies",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_wool"
+    },
+    {
+      "item": "minecraft:brown_wool"
+    },
+    {
+      "item": "minecraft:red_wool"
+    },
+    {
+      "item": "minecraft:blue_wool"
+    },
+    {
+      "item": "minecraft:gray_wool"
+    },
+    {
+      "item": "minecraft:gray_wool"
+    }
+  ],
+  "result": {
+    "id": "soits_plushies:dragon_plush",
+    "count": 1
+  }
+}

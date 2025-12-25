@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "plushies",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "id": "soits_plushies:kiku_plush",
+    "count": 1
+  }
+}

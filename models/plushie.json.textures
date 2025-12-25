@@ -53,6 +53,12 @@
       "map": {
         "2": "raven"
       }
+    },
+    "isolura": {
+      "name": "isolura",
+      "map": {
+        "2": "isolura"
+      }
     }
   }
 }
