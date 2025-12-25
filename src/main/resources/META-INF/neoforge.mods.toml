@@ -4,10 +4,10 @@ license="MIT License"
 
 [[mods]]
 modId="soitsmods"
-version="1.0.1"
+version="1.0.3"
 displayName="SoItsMods"
 updateJSONURL="https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X"
-displayURL="https://soitsdragon.carrd.co/#"
+displayURL="https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X"
 logoFile="logo.png"
 credits="SoItsDragon"
 authors="SoItsDragon"

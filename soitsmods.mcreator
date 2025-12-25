@@ -132,6 +132,122 @@
           "src/main/resources/data/soitsmods/recipe/floofy_plush_recipe.json"
         ]
       }
+    },
+    {
+      "name": "KikuPlush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiku_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soitsmods/loot_table/blocks/kiku_plush.json",
+          "src/main/resources/assets/soitsmods/models/block/kiku_plush.json",
+          "src/main/resources/assets/soitsmods/models/item/kiku_plush.json",
+          "src/main/java/net/soitsdragon/soitsmods/block/KikuPlushBlock.java",
+          "src/main/resources/assets/soitsmods/blockstates/kiku_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "KikuPlushRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiku_plush_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soitsmods/recipe/kiku_plush_recipe.json",
+          "src/main/resources/data/soitsmods/advancement/recipes/kiku_plush_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AdriPlush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adri_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/soitsdragon/soitsmods/block/AdriPlushBlock.java",
+          "src/main/resources/data/soitsmods/loot_table/blocks/adri_plush.json",
+          "src/main/resources/assets/soitsmods/models/item/adri_plush.json",
+          "src/main/resources/assets/soitsmods/blockstates/adri_plush.json",
+          "src/main/resources/assets/soitsmods/models/block/adri_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "LavenderPlush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavender_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soitsmods/blockstates/lavender_plush.json",
+          "src/main/resources/assets/soitsmods/models/item/lavender_plush.json",
+          "src/main/resources/assets/soitsmods/models/block/lavender_plush.json",
+          "src/main/java/net/soitsdragon/soitsmods/block/LavenderPlushBlock.java",
+          "src/main/resources/data/soitsmods/loot_table/blocks/lavender_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "AdriPlushRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adri_plush_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soitsmods/advancement/recipes/adri_plush_recipe.json",
+          "src/main/resources/data/soitsmods/recipe/adri_plush_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LavenderPlushRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavender_plush_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soitsmods/recipe/lavender_plush_recipe.json",
+          "src/main/resources/data/soitsmods/advancement/recipes/lavender_plush_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FluffyPlush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluffy_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soitsmods/models/block/fluffy_plush.json",
+          "src/main/java/net/soitsdragon/soitsmods/block/FluffyPlushBlock.java",
+          "src/main/resources/assets/soitsmods/blockstates/fluffy_plush.json",
+          "src/main/resources/assets/soitsmods/models/item/fluffy_plush.json",
+          "src/main/resources/data/soitsmods/loot_table/blocks/fluffy_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "FluffyPlushRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluffy_plush_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soitsmods/recipe/fluffy_plush_recipe.json",
+          "src/main/resources/data/soitsmods/advancement/recipes/fluffy_plush_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -141,9 +257,7 @@
       "~CUSTOM:TopHat.helmet",
       "~CUSTOM:SantaHat.helmet"
     ],
-    "ITEMS:minecraft:meat": [
-      "~CUSTOM:DragonPlush"
-    ]
+    "ITEMS:minecraft:meat": []
   },
   "tab_element_order": {},
   "language_map": {
@@ -154,7 +268,11 @@
       "jei.soitsmods.dragons_hats": "Dragons Hats",
       "item.soitsmods.dragon_plush": "Dragon Plush",
       "block.soitsmods.dragon_plush": "§6Dragon Plush",
-      "block.soitsmods.floofy_plush": "§6Floofy Plush"
+      "block.soitsmods.floofy_plush": "§6Floofy Plush",
+      "block.soitsmods.kiku_plush": "§6Kiku Plush",
+      "block.soitsmods.adri_plush": "§6AdriWonderland Plush",
+      "block.soitsmods.lavender_plush": "§6Lavender Plush",
+      "block.soitsmods.fluffy_plush": "§6Fluffy Plush"
     }
   },
   "metadata": {
@@ -197,7 +315,7 @@
   "workspaceSettings": {
     "modid": "soitsmods",
     "modName": "SoItsMods",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Please enjoy my first mod!",
     "author": "SoItsDragon",
     "websiteURL": "https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X",

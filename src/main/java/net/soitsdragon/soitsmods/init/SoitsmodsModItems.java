@@ -22,11 +22,19 @@ public class SoitsmodsModItems {
 	public static final DeferredItem<Item> TOP_HAT_HELMET;
 	public static final DeferredItem<Item> DRAGON_PLUSH;
 	public static final DeferredItem<Item> FLOOFY_PLUSH;
+	public static final DeferredItem<Item> KIKU_PLUSH;
+	public static final DeferredItem<Item> ADRI_PLUSH;
+	public static final DeferredItem<Item> LAVENDER_PLUSH;
+	public static final DeferredItem<Item> FLUFFY_PLUSH;
 	static {
 		SANTA_HAT_HELMET = REGISTRY.register("santa_hat_helmet", SantaHatItem.Helmet::new);
 		TOP_HAT_HELMET = REGISTRY.register("top_hat_helmet", TopHatItem.Helmet::new);
 		DRAGON_PLUSH = block(SoitsmodsModBlocks.DRAGON_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 		FLOOFY_PLUSH = block(SoitsmodsModBlocks.FLOOFY_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
+		KIKU_PLUSH = block(SoitsmodsModBlocks.KIKU_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
+		ADRI_PLUSH = block(SoitsmodsModBlocks.ADRI_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
+		LAVENDER_PLUSH = block(SoitsmodsModBlocks.LAVENDER_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
+		FLUFFY_PLUSH = block(SoitsmodsModBlocks.FLUFFY_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 	}
 
 	// Start of user code block custom items

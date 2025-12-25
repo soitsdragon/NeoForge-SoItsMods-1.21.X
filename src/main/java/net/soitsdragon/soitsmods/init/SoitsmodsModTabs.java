@@ -21,5 +21,9 @@ public class SoitsmodsModTabs {
 				tabData.accept(SoitsmodsModItems.TOP_HAT_HELMET.get());
 				tabData.accept(SoitsmodsModBlocks.DRAGON_PLUSH.get().asItem());
 				tabData.accept(SoitsmodsModBlocks.FLOOFY_PLUSH.get().asItem());
+				tabData.accept(SoitsmodsModBlocks.KIKU_PLUSH.get().asItem());
+				tabData.accept(SoitsmodsModBlocks.ADRI_PLUSH.get().asItem());
+				tabData.accept(SoitsmodsModBlocks.LAVENDER_PLUSH.get().asItem());
+				tabData.accept(SoitsmodsModBlocks.FLUFFY_PLUSH.get().asItem());
 			}).withSearchBar().build());
 }

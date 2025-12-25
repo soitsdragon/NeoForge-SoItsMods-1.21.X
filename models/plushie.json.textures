@@ -11,6 +11,30 @@
       "map": {
         "2": "floofy_skin_mc"
       }
+    },
+    "kiku": {
+      "name": "kiku",
+      "map": {
+        "2": "kikualayne"
+      }
+    },
+    "adri": {
+      "name": "adri",
+      "map": {
+        "2": "adriwonderland"
+      }
+    },
+    "lavender": {
+      "name": "lavender",
+      "map": {
+        "2": "lavenderstar"
+      }
+    },
+    "fluffy": {
+      "name": "fluffy",
+      "map": {
+        "2": "fluffy"
+      }
     }
   }
 }
