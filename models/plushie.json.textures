@@ -35,6 +35,24 @@
       "map": {
         "2": "fluffy"
       }
+    },
+    "sazu": {
+      "name": "sazu",
+      "map": {
+        "2": "sazu"
+      }
+    },
+    "luni": {
+      "name": "luni",
+      "map": {
+        "2": "luni"
+      }
+    },
+    "raven": {
+      "name": "raven",
+      "map": {
+        "2": "raven"
+      }
     }
   }
 }

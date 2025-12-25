@@ -1,7 +1,0 @@
-{
-  "parent": "soitsmods:custom/red_hat",
-  "textures": {
-    "0": "soitsmods:block/red_hat",
-    "particle": "soitsmods:item/santa_hat"
-  }
-}

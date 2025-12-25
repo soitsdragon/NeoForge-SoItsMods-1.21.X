@@ -1,81 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "SantaHat",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "santa_hat",
-      "metadata": {
-        "files": [
-          "src/main/java/net/soitsdragon/soitsmods/item/SantaHatItem.java",
-          "src/main/resources/assets/soitsmods/models/item/santa_hat_helmet.json"
-        ]
-      }
-    },
-    {
-      "name": "TopHat",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "top_hat",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/soitsmods/models/item/top_hat_helmet.json",
-          "src/main/java/net/soitsdragon/soitsmods/item/TopHatItem.java"
-        ]
-      }
-    },
-    {
-      "name": "DragonsMod",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dragons_mod",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "TopHatRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "top_hat_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/soitsmods/advancement/recipes/top_hat_recipe.json",
-          "src/main/resources/data/soitsmods/recipe/top_hat.json"
-        ]
-      }
-    },
-    {
-      "name": "DragonsHats",
-      "type": "recipe_type",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dragons_hats",
-      "metadata": {
-        "files": [
-          "src/main/java/net/soitsdragon/soitsmods/integration/jei/DragonsHatsJeiCategory.java",
-          "src/main/java/net/soitsdragon/soitsmods/recipe/DragonsHatsRecipe.java"
-        ]
-      }
-    },
-    {
-      "name": "SantaHatRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "santa_hat_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/soitsmods/advancement/recipes/santa_hat_recipe.json",
-          "src/main/resources/data/soitsmods/recipe/santa_hat_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "DragonPlush",
       "type": "block",
       "compiles": true,
@@ -83,13 +8,14 @@
       "registry_name": "dragon_plush",
       "metadata": {
         "files": [
-          "src/main/resources/assets/soitsmods/blockstates/dragon_plush.json",
-          "src/main/resources/assets/soitsmods/models/block/dragon_plush.json",
-          "src/main/resources/assets/soitsmods/models/item/dragon_plush.json",
-          "src/main/java/net/soitsdragon/soitsmods/block/DragonPlushBlock.java",
-          "src/main/resources/data/soitsmods/loot_table/blocks/dragon_plush.json"
+          "src/main/resources/data/soits_plushies/loot_table/blocks/dragon_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/dragon_plush.json",
+          "src/main/resources/assets/soits_plushies/models/item/dragon_plush.json",
+          "src/main/java/net/soitsdragon/soits_plushies/block/DragonPlushBlock.java",
+          "src/main/resources/assets/soits_plushies/blockstates/dragon_plush.json"
         ]
-      }
+      },
+      "path": "~/Plushies"
     },
     {
       "name": "FloofyPlush",
@@ -99,13 +25,14 @@
       "registry_name": "floofy_plush",
       "metadata": {
         "files": [
-          "src/main/resources/assets/soitsmods/models/item/floofy_plush.json",
-          "src/main/resources/assets/soitsmods/blockstates/floofy_plush.json",
-          "src/main/resources/data/soitsmods/loot_table/blocks/floofy_plush.json",
-          "src/main/java/net/soitsdragon/soitsmods/block/FloofyPlushBlock.java",
-          "src/main/resources/assets/soitsmods/models/block/floofy_plush.json"
+          "src/main/resources/data/soits_plushies/loot_table/blocks/floofy_plush.json",
+          "src/main/resources/assets/soits_plushies/models/item/floofy_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/floofy_plush.json",
+          "src/main/resources/assets/soits_plushies/blockstates/floofy_plush.json",
+          "src/main/java/net/soitsdragon/soits_plushies/block/FloofyPlushBlock.java"
         ]
-      }
+      },
+      "path": "~/Plushies"
     },
     {
       "name": "DragonPlushRecipe",
@@ -115,10 +42,11 @@
       "registry_name": "dragon_plush_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/soitsmods/advancement/recipes/dragon_plush_recipe.json",
-          "src/main/resources/data/soitsmods/recipe/dragon_plush_recipe.json"
+          "src/main/resources/data/soits_plushies/recipe/dragon_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/advancement/recipes/dragon_plush_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "FloofyPlushRecipe",
@@ -128,10 +56,11 @@
       "registry_name": "floofy_plush_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/soitsmods/advancement/recipes/floofy_plush_recipe.json",
-          "src/main/resources/data/soitsmods/recipe/floofy_plush_recipe.json"
+          "src/main/resources/data/soits_plushies/recipe/floofy_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/advancement/recipes/floofy_plush_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "KikuPlush",
@@ -141,13 +70,14 @@
       "registry_name": "kiku_plush",
       "metadata": {
         "files": [
-          "src/main/resources/data/soitsmods/loot_table/blocks/kiku_plush.json",
-          "src/main/resources/assets/soitsmods/models/block/kiku_plush.json",
-          "src/main/resources/assets/soitsmods/models/item/kiku_plush.json",
-          "src/main/java/net/soitsdragon/soitsmods/block/KikuPlushBlock.java",
-          "src/main/resources/assets/soitsmods/blockstates/kiku_plush.json"
+          "src/main/resources/assets/soits_plushies/blockstates/kiku_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/kiku_plush.json",
+          "src/main/resources/assets/soits_plushies/models/item/kiku_plush.json",
+          "src/main/java/net/soitsdragon/soits_plushies/block/KikuPlushBlock.java",
+          "src/main/resources/data/soits_plushies/loot_table/blocks/kiku_plush.json"
         ]
-      }
+      },
+      "path": "~/Plushies"
     },
     {
       "name": "KikuPlushRecipe",
@@ -157,10 +87,11 @@
       "registry_name": "kiku_plush_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/soitsmods/recipe/kiku_plush_recipe.json",
-          "src/main/resources/data/soitsmods/advancement/recipes/kiku_plush_recipe.json"
+          "src/main/resources/data/soits_plushies/recipe/kiku_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/advancement/recipes/kiku_plush_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "AdriPlush",
@@ -170,13 +101,14 @@
       "registry_name": "adri_plush",
       "metadata": {
         "files": [
-          "src/main/java/net/soitsdragon/soitsmods/block/AdriPlushBlock.java",
-          "src/main/resources/data/soitsmods/loot_table/blocks/adri_plush.json",
-          "src/main/resources/assets/soitsmods/models/item/adri_plush.json",
-          "src/main/resources/assets/soitsmods/blockstates/adri_plush.json",
-          "src/main/resources/assets/soitsmods/models/block/adri_plush.json"
+          "src/main/java/net/soitsdragon/soits_plushies/block/AdriPlushBlock.java",
+          "src/main/resources/data/soits_plushies/loot_table/blocks/adri_plush.json",
+          "src/main/resources/assets/soits_plushies/models/item/adri_plush.json",
+          "src/main/resources/assets/soits_plushies/blockstates/adri_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/adri_plush.json"
         ]
-      }
+      },
+      "path": "~/Plushies"
     },
     {
       "name": "LavenderPlush",
@@ -186,13 +118,14 @@
       "registry_name": "lavender_plush",
       "metadata": {
         "files": [
-          "src/main/resources/assets/soitsmods/blockstates/lavender_plush.json",
-          "src/main/resources/assets/soitsmods/models/item/lavender_plush.json",
-          "src/main/resources/assets/soitsmods/models/block/lavender_plush.json",
-          "src/main/java/net/soitsdragon/soitsmods/block/LavenderPlushBlock.java",
-          "src/main/resources/data/soitsmods/loot_table/blocks/lavender_plush.json"
+          "src/main/resources/data/soits_plushies/loot_table/blocks/lavender_plush.json",
+          "src/main/resources/assets/soits_plushies/models/item/lavender_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/lavender_plush.json",
+          "src/main/java/net/soitsdragon/soits_plushies/block/LavenderPlushBlock.java",
+          "src/main/resources/assets/soits_plushies/blockstates/lavender_plush.json"
         ]
-      }
+      },
+      "path": "~/Plushies"
     },
     {
       "name": "AdriPlushRecipe",
@@ -202,10 +135,11 @@
       "registry_name": "adri_plush_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/soitsmods/advancement/recipes/adri_plush_recipe.json",
-          "src/main/resources/data/soitsmods/recipe/adri_plush_recipe.json"
+          "src/main/resources/data/soits_plushies/recipe/adri_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/advancement/recipes/adri_plush_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "LavenderPlushRecipe",
@@ -215,10 +149,11 @@
       "registry_name": "lavender_plush_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/soitsmods/recipe/lavender_plush_recipe.json",
-          "src/main/resources/data/soitsmods/advancement/recipes/lavender_plush_recipe.json"
+          "src/main/resources/data/soits_plushies/recipe/lavender_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/advancement/recipes/lavender_plush_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "FluffyPlush",
@@ -228,13 +163,14 @@
       "registry_name": "fluffy_plush",
       "metadata": {
         "files": [
-          "src/main/resources/assets/soitsmods/models/block/fluffy_plush.json",
-          "src/main/java/net/soitsdragon/soitsmods/block/FluffyPlushBlock.java",
-          "src/main/resources/assets/soitsmods/blockstates/fluffy_plush.json",
-          "src/main/resources/assets/soitsmods/models/item/fluffy_plush.json",
-          "src/main/resources/data/soitsmods/loot_table/blocks/fluffy_plush.json"
+          "src/main/resources/assets/soits_plushies/models/block/fluffy_plush.json",
+          "src/main/resources/assets/soits_plushies/blockstates/fluffy_plush.json",
+          "src/main/resources/data/soits_plushies/loot_table/blocks/fluffy_plush.json",
+          "src/main/java/net/soitsdragon/soits_plushies/block/FluffyPlushBlock.java",
+          "src/main/resources/assets/soits_plushies/models/item/fluffy_plush.json"
         ]
-      }
+      },
+      "path": "~/Plushies"
     },
     {
       "name": "FluffyPlushRecipe",
@@ -244,62 +180,178 @@
       "registry_name": "fluffy_plush_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/soitsmods/recipe/fluffy_plush_recipe.json",
-          "src/main/resources/data/soitsmods/advancement/recipes/fluffy_plush_recipe.json"
+          "src/main/resources/data/soits_plushies/recipe/fluffy_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/advancement/recipes/fluffy_plush_recipe.json"
         ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SazuPlush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sazu_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soits_plushies/loot_table/blocks/sazu_plush.json",
+          "src/main/java/net/soitsdragon/soits_plushies/block/SazuPlushBlock.java",
+          "src/main/resources/assets/soits_plushies/models/item/sazu_plush.json",
+          "src/main/resources/assets/soits_plushies/blockstates/sazu_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/sazu_plush.json"
+        ]
+      },
+      "path": "~/Plushies"
+    },
+    {
+      "name": "SazuPlushRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sazu_plush_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soits_plushies/advancement/recipes/sazu_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/recipe/sazu_plush_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LuniPlush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luni_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soits_plushies/blockstates/luni_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/luni_plush.json",
+          "src/main/java/net/soitsdragon/soits_plushies/block/LuniPlushBlock.java",
+          "src/main/resources/data/soits_plushies/loot_table/blocks/luni_plush.json",
+          "src/main/resources/assets/soits_plushies/models/item/luni_plush.json"
+        ]
+      },
+      "path": "~/Plushies"
+    },
+    {
+      "name": "LuniPlushRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luni_plush_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soits_plushies/recipe/luni_plush_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RavenPlush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raven_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/soitsdragon/soits_plushies/block/RavenPlushBlock.java",
+          "src/main/resources/assets/soits_plushies/blockstates/raven_plush.json",
+          "src/main/resources/assets/soits_plushies/models/item/raven_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/raven_plush.json",
+          "src/main/resources/data/soits_plushies/loot_table/blocks/raven_plush.json"
+        ]
+      },
+      "path": "~/Plushies"
+    },
+    {
+      "name": "RavenPlushRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raven_plush_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soits_plushies/recipe/raven_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/advancement/recipes/raven_plush_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SoItsPlushies",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "so_its_plushies",
+      "metadata": {
+        "files": []
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:minecraft:head_armor": [
-      "~CUSTOM:TopHat.helmet",
-      "~CUSTOM:SantaHat.helmet"
+    "BLOCKS:soits_plushies:category/tag": [
+      "CUSTOM:DragonPlush",
+      "CUSTOM:FloofyPlush",
+      "CUSTOM:KikuPlush",
+      "CUSTOM:AdriPlush",
+      "CUSTOM:LavenderPlush",
+      "CUSTOM:FluffyPlush",
+      "CUSTOM:SazuPlush",
+      "CUSTOM:LuniPlush",
+      "CUSTOM:RavenPlush"
     ],
-    "ITEMS:minecraft:meat": []
+    "ENTITIES:soits_plushies:category/tag": []
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.soitsmods.santa_hat_helmet": "Santa Hat",
-      "item.soitsmods.top_hat_helmet": "Top Hat",
-      "item_group.soitsmods.dragons_mod": "Dragons Place",
-      "jei.soitsmods.dragons_hats": "Dragons Hats",
       "item.soitsmods.dragon_plush": "Dragon Plush",
       "block.soitsmods.dragon_plush": "§6Dragon Plush",
       "block.soitsmods.floofy_plush": "§6Floofy Plush",
       "block.soitsmods.kiku_plush": "§6Kiku Plush",
       "block.soitsmods.adri_plush": "§6AdriWonderland Plush",
       "block.soitsmods.lavender_plush": "§6Lavender Plush",
-      "block.soitsmods.fluffy_plush": "§6Fluffy Plush"
+      "block.soitsmods.fluffy_plush": "§6Fluffy Plush",
+      "block.soitsmods.sazu_plush": "§6Sazu Plush",
+      "block.soitsmods.luni_plush": "§6Luni Plush",
+      "block.soitsmods.raven_plush": "§6Raven Plush",
+      "item_group.soitsmods.so_its_plushies": "SoItsPlushies",
+      "block.soits_plushies.dragon_plush": "§6Dragon Plush",
+      "block.soits_plushies.floofy_plush": "§6Floofy Plush",
+      "block.soits_plushies.kiku_plush": "§6Kiku Plush",
+      "block.soits_plushies.adri_plush": "§6AdriWonderland Plush",
+      "block.soits_plushies.lavender_plush": "§6Lavender Plush",
+      "block.soits_plushies.fluffy_plush": "§6Fluffy Plush",
+      "block.soits_plushies.sazu_plush": "§6Sazu Plush",
+      "block.soits_plushies.luni_plush": "§6Luni Plush",
+      "block.soits_plushies.raven_plush": "§6Raven Plush",
+      "item_group.soits_plushies.so_its_plushies": "SoItsPlushies"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/soitsdragon/soitsmods/init/SoitsmodsModBrewingRecipes.java",
-      "src/main/java/net/soitsdragon/soitsmods/init/SoitsmodsModJeiPlugin.java",
-      "src/main/java/net/soitsdragon/soitsmods/init/SoitsmodsModRecipeTypes.java",
-      "src/main/java/net/soitsdragon/soitsmods/recipe/RecipeUtils.java",
-      "src/main/java/net/soitsdragon/soitsmods/init/SoitsmodsModBlocks.java",
-      "src/main/java/net/soitsdragon/soitsmods/init/SoitsmodsModItems.java",
-      "src/main/java/net/soitsdragon/soitsmods/init/SoitsmodsModModels.java",
+      "src/main/java/net/soitsdragon/soits_plushies/init/SoitsPlushiesModBrewingRecipes.java",
+      "src/main/java/net/soitsdragon/soits_plushies/init/SoitsPlushiesModBlocks.java",
+      "src/main/java/net/soitsdragon/soits_plushies/init/SoitsPlushiesModItems.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/soitsdragon/soitsmods/SoitsmodsModPlayerAnimationAPI.java",
-      "src/main/java/net/soitsdragon/soitsmods/mixin/ItemInHandLayerMixin.java",
-      "src/main/java/net/soitsdragon/soitsmods/SoitsmodsMod.java",
-      "src/main/java/net/soitsdragon/soitsmods/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/soitsdragon/soits_plushies/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/soitsdragon/soits_plushies/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/java/net/soitsdragon/soits_plushies/SoitsPlushiesModPlayerAnimationAPI.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/soitsdragon/soitsmods/mixin/PlayerAnimationMixin.java",
-      "src/main/java/net/soitsdragon/soitsmods/mixin/LevelRendererMixin.java",
-      "src/main/java/net/soitsdragon/soitsmods/mixin/ItemInHandRendererMixin.java",
-      "src/main/java/net/soitsdragon/soitsmods/mixin/EntityRenderDispatcherMixin.java",
-      "src/main/java/net/soitsdragon/soitsmods/init/SoitsmodsModTabs.java",
-      "src/main/java/net/soitsdragon/soitsmods/mixin/CameraAccessor.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/soitsdragon/soitsmods/mixin/LivingEntityRendererMixin.java",
-      "src/main/java/net/soitsdragon/soitsmods/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/soitsdragon/soitsmods/client/ItemArms.java"
+      "src/main/java/net/soitsdragon/soits_plushies/client/ItemArms.java",
+      "src/main/java/net/soitsdragon/soits_plushies/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/soitsdragon/soits_plushies/mixin/LevelRendererMixin.java",
+      "src/main/java/net/soitsdragon/soits_plushies/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/soitsdragon/soits_plushies/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/soitsdragon/soits_plushies/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/soitsdragon/soits_plushies/mixin/CameraAccessor.java",
+      "src/main/java/net/soitsdragon/soits_plushies/SoitsPlushiesMod.java",
+      "src/main/java/net/soitsdragon/soits_plushies/init/SoitsPlushiesModTabs.java",
+      "src/main/java/net/soitsdragon/soits_plushies/mixin/LivingEntityRendererMixin.java",
+      "src/main/resources/pack.mcmeta"
     ],
     "betteranimations_models": {
       "DragonPlush": "plushie:default"
@@ -310,13 +362,22 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Plushies",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
-    "modid": "soitsmods",
-    "modName": "SoItsMods",
-    "version": "1.0.3",
-    "description": "Please enjoy my first mod!",
+    "modid": "soits_plushies",
+    "modName": "SoIts_Plushies",
+    "version": "1.0.4",
+    "description": "Please enjoy my plushies!",
     "author": "SoItsDragon",
     "websiteURL": "https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X",
     "license": "MIT License",
@@ -332,7 +393,7 @@
     ],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "SoItsDragon",
-    "modElementsPackage": "net.soitsdragon.soitsmods"
+    "modElementsPackage": "net.soitsdragon.soits_plushies"
   },
   "mcreatorVersion": 202500345720
 }

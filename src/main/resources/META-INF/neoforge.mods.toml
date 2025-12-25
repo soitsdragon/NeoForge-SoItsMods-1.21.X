@@ -3,15 +3,14 @@ loaderVersion="[4,)"
 license="MIT License"
 
 [[mods]]
-modId="soitsmods"
-version="1.0.3"
-displayName="SoItsMods"
-updateJSONURL="https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X"
-displayURL="https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X"
+modId="soits_plushies"
+version="1.0.4"
+displayName="SoIts_Plushies"
+displayURL="https://mcreator.net"
 logoFile="logo.png"
 credits="SoItsDragon"
 authors="SoItsDragon"
-description="Please enjoy my first mod!"
+description="Please enjoy my plushies!"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -20,14 +19,14 @@ description="Please enjoy my first mod!"
 # Start of user code block custom mixins
 # End of user code block custom mixins
 
-[[dependencies.soitsmods]]
+[[dependencies.soits_plushies]]
     modId="neoforge"
     type="required"
     versionRange="[21.1.190,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.soitsmods]]
+[[dependencies.soits_plushies]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1]"
@@ -35,13 +34,13 @@ description="Please enjoy my first mod!"
     side="BOTH"
 
 
-[[dependencies.soitsmods]]
+[[dependencies.soits_plushies]]
     modId="nexus_compiler"
     type="optional"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.soitsmods]]
+[[dependencies.soits_plushies]]
     modId="jei"
     type="optional"
     versionRange="[0,)"
