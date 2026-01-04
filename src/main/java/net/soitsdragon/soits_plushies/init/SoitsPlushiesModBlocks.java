@@ -23,6 +23,7 @@ public class SoitsPlushiesModBlocks {
 	public static final DeferredBlock<Block> LUNI_PLUSH;
 	public static final DeferredBlock<Block> RAVEN_PLUSH;
 	public static final DeferredBlock<Block> ISO_LURA_PLUSH;
+	public static final DeferredBlock<Block> NESSY_ZEPP_PLUSH;
 	static {
 		DRAGON_PLUSH = REGISTRY.register("dragon_plush", DragonPlushBlock::new);
 		FLOOFY_PLUSH = REGISTRY.register("floofy_plush", FloofyPlushBlock::new);
@@ -34,6 +35,7 @@ public class SoitsPlushiesModBlocks {
 		LUNI_PLUSH = REGISTRY.register("luni_plush", LuniPlushBlock::new);
 		RAVEN_PLUSH = REGISTRY.register("raven_plush", RavenPlushBlock::new);
 		ISO_LURA_PLUSH = REGISTRY.register("iso_lura_plush", IsoLuraPlushBlock::new);
+		NESSY_ZEPP_PLUSH = REGISTRY.register("nessy_zepp_plush", NessyZeppPlushBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

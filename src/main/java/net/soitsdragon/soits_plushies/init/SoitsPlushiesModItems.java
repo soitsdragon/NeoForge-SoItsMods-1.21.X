@@ -26,6 +26,7 @@ public class SoitsPlushiesModItems {
 	public static final DeferredItem<Item> LUNI_PLUSH;
 	public static final DeferredItem<Item> RAVEN_PLUSH;
 	public static final DeferredItem<Item> ISO_LURA_PLUSH;
+	public static final DeferredItem<Item> NESSY_ZEPP_PLUSH;
 	static {
 		DRAGON_PLUSH = block(SoitsPlushiesModBlocks.DRAGON_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 		FLOOFY_PLUSH = block(SoitsPlushiesModBlocks.FLOOFY_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
@@ -37,6 +38,7 @@ public class SoitsPlushiesModItems {
 		LUNI_PLUSH = block(SoitsPlushiesModBlocks.LUNI_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 		RAVEN_PLUSH = block(SoitsPlushiesModBlocks.RAVEN_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 		ISO_LURA_PLUSH = block(SoitsPlushiesModBlocks.ISO_LURA_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
+		NESSY_ZEPP_PLUSH = block(SoitsPlushiesModBlocks.NESSY_ZEPP_PLUSH, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 	}
 
 	// Start of user code block custom items

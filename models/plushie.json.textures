@@ -59,6 +59,12 @@
       "map": {
         "2": "isolura"
       }
+    },
+    "nessyzepp": {
+      "name": "nessyzepp",
+      "map": {
+        "2": "nessyzepp"
+      }
     }
   }
 }

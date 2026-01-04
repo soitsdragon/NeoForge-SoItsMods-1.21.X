@@ -27,5 +27,6 @@ public class SoitsPlushiesModTabs {
 				tabData.accept(SoitsPlushiesModBlocks.LUNI_PLUSH.get().asItem());
 				tabData.accept(SoitsPlushiesModBlocks.RAVEN_PLUSH.get().asItem());
 				tabData.accept(SoitsPlushiesModBlocks.ISO_LURA_PLUSH.get().asItem());
+				tabData.accept(SoitsPlushiesModBlocks.NESSY_ZEPP_PLUSH.get().asItem());
 			}).withSearchBar().build());
 }

@@ -319,6 +319,37 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "NessyZeppPlush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nessy_zepp_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/soitsdragon/soits_plushies/block/NessyZeppPlushBlock.java",
+          "src/main/resources/assets/soits_plushies/models/item/nessy_zepp_plush.json",
+          "src/main/resources/assets/soits_plushies/blockstates/nessy_zepp_plush.json",
+          "src/main/resources/data/soits_plushies/loot_table/blocks/nessy_zepp_plush.json",
+          "src/main/resources/assets/soits_plushies/models/block/nessy_zepp_plush.json"
+        ]
+      },
+      "path": "~/Plushies"
+    },
+    {
+      "name": "NessyZeppPlushRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nessy_zepp_plush_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soits_plushies/recipe/nessy_zepp_plush_recipe.json",
+          "src/main/resources/data/soits_plushies/advancement/recipes/nessy_zepp_plush_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -361,7 +392,8 @@
       "block.soits_plushies.luni_plush": "§6Luni Plush",
       "block.soits_plushies.raven_plush": "§6Raven Plush",
       "item_group.soits_plushies.so_its_plushies": "SoItsPlushies",
-      "block.soits_plushies.iso_lura_plush": "§6IsoLura Plush"
+      "block.soits_plushies.iso_lura_plush": "§6IsoLura Plush",
+      "block.soits_plushies.nessy_zepp_plush": "§6NessyZepp Plush"
     }
   },
   "metadata": {
@@ -409,10 +441,10 @@
   "workspaceSettings": {
     "modid": "soits_plushies",
     "modName": "SoIts_Plushies",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Please enjoy my plushies!",
     "author": "SoItsDragon",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X",
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "soitsplushiesicon",
@@ -420,7 +452,6 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "nexus_compiler",
       "jei"
     ],
     "currentGenerator": "neoforge-1.21.1",

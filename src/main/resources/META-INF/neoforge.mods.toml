@@ -4,9 +4,9 @@ license="MIT License"
 
 [[mods]]
 modId="soits_plushies"
-version="1.0.5"
+version="1.0.6"
 displayName="SoIts_Plushies"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/soitsdragon/NeoForge-SoItsMods-1.21.X"
 logoFile="logo.png"
 credits="SoItsDragon"
 authors="SoItsDragon"
@@ -34,12 +34,6 @@ description="Please enjoy my plushies!"
     side="BOTH"
 
 
-[[dependencies.soits_plushies]]
-    modId="nexus_compiler"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 [[dependencies.soits_plushies]]
     modId="jei"
     type="optional"
