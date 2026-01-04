@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "plushies",
+    "unlockingItems": [
+      {
+        "value": "Blocks.WOOL"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#12"
+      },
+      {
+        "value": "Blocks.WOOL#7"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#7"
+      },
+      {
+        "value": "Blocks.WOOL#7"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NessyZeppPlush"
+    },
+    "name": "nessy_zepp_plush_recipe",
+    "namespace": "mod"
+  }
+}
